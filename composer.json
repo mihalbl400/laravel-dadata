@@ -1,5 +1,5 @@
 {
-    "name": "fomvasss/laravel-dadata",
+    "name": "mihalbl400/laravel-dadata",
     "description": "Dadata API client (https://dadata.ru)",
     "keywords": ["laravel", "dadata", "autocomplete"],
     "type": "package",
@@ -12,7 +12,11 @@
         {
             "role": "Developer",
             "name": "Fomin Vasyl",
-            "email": "fomvasss@gmail.com"
+            "email": "Mihalbl400@gmail.com"
+        }
+        {
+            "role": "Restore",
+            "name": "mihalbl400"
         }
     ],
     "require": {
@@ -23,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fomvasss\\Dadata\\": "src"
+            "Mihalbl400\\Dadata\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -32,11 +36,11 @@
     "extra": {
         "laravel":{
             "providers": [
-                "Fomvasss\\Dadata\\DadataServiceProvider"
+                "Mihalbl400\\Dadata\\DadataServiceProvider"
             ],
             "aliases": {
-                "DadataSuggest": "Fomvasss\\Dadata\\Facades\\DadataSuggest",
-                "DadataClean": "Fomvasss\\Dadata\\Facades\\DadataClean"
+                "DadataSuggest": "Mihalbl400\\Dadata\\Facades\\DadataSuggest",
+                "DadataClean": "Mihalbl400\\Dadata\\Facades\\DadataClean"
             }
         }
     }

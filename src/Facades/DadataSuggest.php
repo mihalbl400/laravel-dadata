@@ -1,6 +1,6 @@
 <?php
 
-namespace Fomvasss\Dadata\Facades;
+namespace Mihalbl400\Dadata\Facades;
 
 class DadataSuggest extends \Illuminate\Support\Facades\Facade
 {

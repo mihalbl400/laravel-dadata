@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Fomvasss\Dadata\Response;
+namespace Mihalbl400\Dadata\Response;
 
 /**
  * Агрегированная статистика
  *
- * @package Fomvasss\Dadata\Response
+ * @package Mihalbl400\Dadata\Response
  */
 class StatisticServices
 {

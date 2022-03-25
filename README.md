@@ -6,13 +6,13 @@
 
 Запустить:
 ```bash
-composer require "fomvasss/laravel-dadata"
+composer require "Mihalbl400/laravel-dadata"
 ```
 ---
 __Для Laravel < 5.5:__
 Зарегистрировать service-provider в config/app.php:
 ```php
-  Fomvasss\Dadata\DadataServiceProvider::class,
+  Mihalbl400\Dadata\DadataServiceProvider::class,
 ```
 Для Lumen добавить в bootstrap/app.php:
 ```php
@@ -21,7 +21,7 @@ $app->withFacades();
 ---
 Опубликовать конфиг: 
 ```bash
-php artisan vendor:publish --provider="Fomvasss\Dadata\DadataServiceProvider"
+php artisan vendor:publish --provider="Mihalbl400\Dadata\DadataServiceProvider"
 ```
 Задать токет (и ключ для API стандартизации) в `config/dadata.php` или `.env`
 ```php
@@ -33,7 +33,7 @@ php artisan vendor:publish --provider="Fomvasss\Dadata\DadataServiceProvider"
 ### Сервис подсказок (https://dadata.ru/api/suggest/)
 Добавить в клас фасад:
 ```php
-use Fomvasss\Dadata\Facades\DadataSuggest;
+use Mihalbl400\Dadata\Facades\DadataSuggest;
 ```
 1. Пример использование метода с параметрамы:
     ```php
@@ -53,7 +53,7 @@ use Fomvasss\Dadata\Facades\DadataSuggest;
 ### Сервис стандартизации (https://dadata.ru/api/clean/)
 Добавить в клас фасад:
 ```php
-use Fomvasss\Dadata\Facades\DadataClean;
+use Mihalbl400\Dadata\Facades\DadataClean;
 ```
 Использовать методы: 
 ```php

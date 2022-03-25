@@ -1,6 +1,6 @@
 <?php
 
-namespace Fomvasss\Dadata\Response;
+namespace Mihalbl400\Dadata\Response;
 
 abstract class AbstractResponse
 {

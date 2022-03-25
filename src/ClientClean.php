@@ -1,20 +1,20 @@
 <?php
 
-namespace Fomvasss\Dadata;
+namespace Mihalbl400\Dadata;
 
 use DateTime;
 use DateTimeZone;
 use Exception;
-use Fomvasss\Dadata\Response\AbstractResponse;
-use Fomvasss\Dadata\Response\Address;
-use Fomvasss\Dadata\Response\Date;
-use Fomvasss\Dadata\Response\Email;
-use Fomvasss\Dadata\Response\Name;
-use Fomvasss\Dadata\Response\Passport;
-use Fomvasss\Dadata\Response\Phone;
-use Fomvasss\Dadata\Response\Statistics;
-use Fomvasss\Dadata\Response\StatisticServices;
-use Fomvasss\Dadata\Response\Vehicle;
+use Mihalbl400\Dadata\Response\AbstractResponse;
+use Mihalbl400\Dadata\Response\Address;
+use Mihalbl400\Dadata\Response\Date;
+use Mihalbl400\Dadata\Response\Email;
+use Mihalbl400\Dadata\Response\Name;
+use Mihalbl400\Dadata\Response\Passport;
+use Mihalbl400\Dadata\Response\Phone;
+use Mihalbl400\Dadata\Response\Statistics;
+use Mihalbl400\Dadata\Response\StatisticServices;
+use Mihalbl400\Dadata\Response\Vehicle;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;

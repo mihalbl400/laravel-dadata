@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Fomvasss\Dadata\Response;
+namespace Mihalbl400\Dadata\Response;
 
 use DateTime;
 
@@ -14,7 +14,7 @@ use DateTime;
  * поиск дублей - merging
  *
  * @link https://dadata.ru/api/stat/
- * @package Fomvasss\Dadata\Response
+ * @package Mihalbl400\Dadata\Response
  */
 class Statistics extends AbstractResponse
 {
