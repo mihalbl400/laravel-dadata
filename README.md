@@ -6,7 +6,7 @@
 
 Запустить:
 ```bash
-composer require "Mihalbl400/laravel-dadata"
+composer require "mihalbl400/laravel-dadata"
 ```
 ---
 __Для Laravel < 5.5:__
